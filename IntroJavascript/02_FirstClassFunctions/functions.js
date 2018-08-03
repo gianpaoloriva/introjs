@@ -12,7 +12,7 @@ logGreeting(greet);
 
 // function expression
 var greetMe = function() {
-	console.log('Hi Tony!');
+	console.log('Hi GP!');
 }
 greetMe();
 
@@ -21,5 +21,5 @@ logGreeting(greetMe);
 
 // use a function expression to create a function on the fly
 logGreeting(function() {
-	console.log('Hello Tony!');
+	console.log('Hello GP!');
 });

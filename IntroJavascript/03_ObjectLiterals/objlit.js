@@ -1,6 +1,6 @@
 var person = {
-	firstname: 'John',
-	lastname: 'Doe',
+	firstname: 'Gianpaolo',
+	lastname: 'Riva',
 	greet: function() {
 		console.log('Hello, ' + this.firstname + ' ' + this.lastname);
 	}

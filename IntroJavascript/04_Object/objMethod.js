@@ -1,3 +1,4 @@
+//Object Method
 var person = {
 	firstname: 'Gianpaolo',
 	lastname: 'Riva',

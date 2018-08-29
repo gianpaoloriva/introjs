@@ -1,3 +1,4 @@
+//Object Creation
 var person = {
 	firstname: '',
 	lastname: '',

@@ -1,5 +1,4 @@
 //Interitance
-
 class Task {
 	id;
 
@@ -19,7 +18,6 @@ class ABC inherits Task {
 }
 
 //Instance
-
 class CoolGuy {
 	specialTrick = nothing
 

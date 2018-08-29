@@ -13,6 +13,6 @@ john.greet();
 var jane = new Person('Bill', 'Gates');
 jane.greet();
 
-console.log(john.__proto__);
-console.log(jane.__proto__);
-console.log(john.__proto__ === jane.__proto__);
+console.log(john.prototype);
+console.log(jane.prototype);
+console.log(john.prototype === jane.prototype);

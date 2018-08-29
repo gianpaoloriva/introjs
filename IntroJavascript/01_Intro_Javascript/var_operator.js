@@ -9,9 +9,12 @@ a = a + 1;
 a = a * 2;
 console.log(a);
 
+age = prompt( "Please tell me your age:" );
+console.log( age );
+
 //ES6
 // 1: var and let can change their value and const cannot change its value
-// 2: var can be accessible anywhere in function but let and const can only be   accessible inside the block where they are declared.
+// 2: var can be accessible anywhere in function but let and const can only be accessible inside the block where they are declared.
 const test01 = "My Const"; //won’t be reassigned
 let test02 = "my Let"; //the variable may be reassigned
 

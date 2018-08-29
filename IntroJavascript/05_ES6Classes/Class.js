@@ -1,5 +1,3 @@
-'use strict';
-
 class Person {
 	constructor(firstname, lastname) {
 		this.firstname = firstname;
@@ -17,6 +15,6 @@ john.greet();
 var jane = new Person('Jane', 'Doe');
 jane.greet();
 
-console.log(john.__proto__);
-console.log(jane.__proto__);
-console.log(john.__proto__ === jane.__proto__);
+console.log(john.prototype);
+console.log(jane.prototype);
+console.log(john.prototype === jane.prototype);

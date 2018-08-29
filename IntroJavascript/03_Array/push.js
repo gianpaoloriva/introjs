@@ -1,13 +1,3 @@
-// object properties and methods
-var obj = {
-	greet: 'Hello'
-}
-
-console.log(obj.greet);
-console.log(obj['greet']);
-var prop = 'greet';
-console.log(obj[prop]);
-
 // functions and arrays
 var arr = [];
 
@@ -24,3 +14,8 @@ arr.push(function() {
 arr.forEach(function(item) {
 	item();
 });
+
+
+//lenght,index
+[].length             // => 0: the array has no elements
+['a','b','c'].length  // => 3: highest index is 2, length is 3”

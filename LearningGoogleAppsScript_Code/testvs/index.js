@@ -3,8 +3,7 @@ import 'google-apps-script';
 
 function testGAS() {
     
-    Browser.Buttons.OK;
-
+    Browser.msgBox.apply()
     
 
 }

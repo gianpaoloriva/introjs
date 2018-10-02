@@ -3,7 +3,7 @@ import 'google-apps-script';
 
 function testGAS() {
     
-    Browser.msgBox.apply()
+    Browser.msgBox.apply
     
 
 }

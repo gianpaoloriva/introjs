@@ -6,9 +6,12 @@ function one() {
 
 function two() {
 	// this `a` only belongs to the `two()` function
+	one();
+	
 	var a = 2;
 	console.log( a );
 }
 
-one();		// 1
-two();		// 2
+// one();		// 1
+// two();		// 2
+two();

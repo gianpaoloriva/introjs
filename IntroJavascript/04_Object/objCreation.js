@@ -1,19 +1,15 @@
 //Object Creation
-var person = {
-	firstname: '',
-	lastname: '',
-	greet: function() {
-		return this.firstname + ' ' + this.lastname;
+var myCalendar = {
+	Event: '',
+	Date: '',
+	CreateEvent: function () {
+		return "hai creato il tuo evento: " + this.Event + " alla Data: " + this.Date;
 	}
-}
+};
 
-var john = Object.create(person);
-john.firstname = 'John';
-john.lastname = 'Doe';
 
-var jane = Object.create(person);
-jane.firstname = 'Jane';
-jane.lastname = 'Doe';
+var = Object.create(myCalendar);
+concerto.Event = "ed Sheeran";
+concerto.Date = "Giugno 2019";
 
-console.log(john.greet());
-console.log(jane.greet());
+console.log(concerto.CreateEvent());

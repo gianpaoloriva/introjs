@@ -24,14 +24,15 @@ var b = Number( a );
 console.log( a );	// "42"
 console.log( b );	// 42
 
+
 //Variable + String
 var amount = 99.99;
-amount = amount * 2;
-console.log( amount );		// 199.98
+var amount2 = amount * 2;
+console.log( amount2 );		// 199.98
 // convert `amount` to a string, and
 // add "$" on the beginning
-amount = "$" + String( amount );
-console.log( amount );		// "$199.98"
+var amount3 = "$" + String(amount2);
+console.log( amount3 );		// "$199.98"
 
 // Built-in Method
 var TAX_RATE = 0.08;	// 8% sales tax
@@ -39,4 +40,13 @@ var amount = 99.99;
 amount = amount * 2;
 amount = amount + (amount * TAX_RATE);
 console.log( amount );				// 215.9784
-console.log( amount.toFixed( 2 ) );	// "215.98"
+console.log(amount.toFixed(2));	// "215.98"
+
+function calcolo(taxRate, amount) {
+    var amount2 = amount * 2;
+    var amount3 = amount2 + (amount2 * taxRate);
+
+    return amount3.toFixed(2);
+
+
+}

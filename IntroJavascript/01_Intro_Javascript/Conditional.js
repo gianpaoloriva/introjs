@@ -1,7 +1,8 @@
 var amount = 99.99;
-
+//dfdfdfd
 // is amount big enough?
 if (amount > 10) {			// <-- block attached to `if`
-	amount = amount * 2;
-	console.log( amount );	// 199.98
+amount = amount * 2;
+	console.log(amount);	// 199.98
 }
+

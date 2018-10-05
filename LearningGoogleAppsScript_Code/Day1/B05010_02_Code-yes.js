@@ -11,7 +11,7 @@ function greeting() {
 
 // Task 2.3
 function createMenu() {
-  DocumentApp.getUi().createMenu("PACKT").addItem("Greeting", "greeting").addToUi();
+  DocumentApp.getUi().createMenu("PACKT").addItem("Greeting", "greeting").addToUi()
 }
 
 function greeting() {

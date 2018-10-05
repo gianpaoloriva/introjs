@@ -1,0 +1,35 @@
+//User Object
+
+function doGet() {
+    return HtmlService.createHtmlOutputFromFile('Index');
+  }
+  
+  function getEmail() {
+    return Session.getActiveUser().getEmail();
+  }
+
+  
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <script>
+      function updateButton(email, button) {
+        button.value = 'Clicked by ' + email;
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="Not Clicked"
+      onclick="google.script.run
+          .withSuccessHandler(updateButton)
+          .withUserObject(this)
+          .getEmail()" />
+    <input type="button" value="Not Clicked"
+      onclick="google.script.run
+          .withSuccessHandler(updateButton)
+          .withUserObject(this)
+          .getEmail()" />
+  </body>
+</html>

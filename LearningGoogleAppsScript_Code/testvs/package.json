@@ -9,6 +9,7 @@
   "author": "Gianpaolo Riva",
   "license": "ISC",
   "dependencies": {
-    "@types/google-apps-script": "0.0.28"
+    "@types/google-apps-script": "0.0.28",
+    "bootstrap": "^4.1.3"
   }
 }

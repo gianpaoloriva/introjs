@@ -3,7 +3,7 @@ import 'google-apps-script';
 
 function testGAS() {
     
-    DocumentApp.getActiveDocument().getAs
+    DocumentApp.getActiveDocument().getBlob
 
     SpreadsheetApp.create.
     
